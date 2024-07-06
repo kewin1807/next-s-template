@@ -1,4 +1,4 @@
-import { TQuest } from "@/types/quest";
+import { TQuest } from "@/constants/types/quest";
 import { AnyAction } from "redux";
 import * as ActionTypes from "../actions/types";
 

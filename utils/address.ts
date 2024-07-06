@@ -1,4 +1,4 @@
-import { TUserAction } from "@/types/login"
+import { TUserAction } from "@/constants/types/login"
 import axiosInstance from "@/configs/axios.config";
 
 export const shortenAddress = (address?: string) => {

@@ -1,4 +1,4 @@
-import { TQuest } from "@/types/quest"
+import { TQuest } from "@/constants/types/quest"
 import * as ActionTypes from "../types";
 
 export const fetchMainQuest = (quests: TQuest[]) => ({
