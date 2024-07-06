@@ -1,0 +1,9 @@
+export const FETCH_PROFILE_USER = "fetch_profile_user";
+export const UPDATE_PROFILE_USER = "update_profile_user";
+export const LOGIN_DISCORD = "login_discord";
+export const LOGIN_TWITTER = "login_twitter";
+export const FETCH_MAIN_QUESTS = "fetch_main_quest";
+export const UPDATE_MAIN_QUESTS = "update_main_quest";
+export const OPEN_CLAIM_INITIAL = "open_claim_initial";
+export const UPDATE_DISCORD_CODE = "update_discord_code";
+export const UPDATE_TWITTER_CODE = 'update_twitter_code';
