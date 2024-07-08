@@ -1,8 +1,6 @@
 "use client";
 import { AppProvider } from "@/providers/AppProvider";
-import WagmiWalletProvider from "@/providers/WagmiProvider";
 import { Inter } from "next/font/google";
-import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
@@ -42,9 +40,7 @@ export default function RootLayout({
       </head>
 
       <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
-        <WagmiWalletProvider>
-          <AppProvider>{children}</AppProvider>
-        </WagmiWalletProvider>
+        <AppProvider>{children}</AppProvider>
       </body>
       <GoogleAnalytics gaId={process.env["NEXT_PUBLIC_GA_ID"]} />
     </html>
